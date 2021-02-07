@@ -5,8 +5,8 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
+	int[] arr = {8,2,8,3,2,8,1};
+        System.out.printf("Число, яке повторюється найбільшу кількість разів:%d",Exercise.Calculate(arr));      
 
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
     }
 }
